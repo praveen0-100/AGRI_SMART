@@ -1,0 +1,23 @@
+# Environment variables
+.env
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Node modules
+node_modules/
+**/node_modules/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local SQLite databases and dynamic uploads
+node_backend/agri_smart.db
+node_backend/uploads/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
